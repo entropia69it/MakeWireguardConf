@@ -1,0 +1,8 @@
+# Archivo de configuración local con claves reales
+config_wg.conf
+
+# Archivos de clientes generados
+*.conf
+
+# Logs de auditoría e IPs
+*.log

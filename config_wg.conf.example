@@ -1,0 +1,14 @@
+# Configuración del servidor WireGuard
+# Copia este archivo a config_wg.conf antes de ejecutar el script
+
+# Clave pública de tu servidor WireGuard
+KEY_PUB_SERVER=PON_AQUI_LA_CLAVE_PUBLICA_DEL_SERVIDOR
+
+# Endpoint del servidor (IP_Publica:Puerto o Dominio:Puerto)
+IP_SERVER=vpn.tudominio.com:51820
+
+# Rango de la red WireGuard con máscara CIDR
+IP_RANGE=192.168.169.0/24
+
+# Octeto inicial para la asignación secuencial de clientes
+IP_INIT=8
